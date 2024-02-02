@@ -1,0 +1,26 @@
+.white-mode{
+    background: linear-gradient(
+        to right,
+        #ffee00, 
+        #FFFC00,
+        #fff23b,
+        #ffe96c,
+        #ffee00,
+        #ffe75d
+        );
+
+
+    background-size: 200% 200%;
+
+    animation: movement 5s backwards infinite;
+}
+
+@keyframes movement {
+    from{
+        background-position: 0 0;
+    }to{
+        background-position: 100% 100%;
+    }
+}
+
+

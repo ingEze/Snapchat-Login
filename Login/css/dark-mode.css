@@ -1,0 +1,33 @@
+.center-white-mode{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 100%); 
+
+}
+
+.center-dark-mode{
+    max-width: 400px;
+    padding: 2rem;
+    width: 100%;
+    border-radius: 1rem;
+    background: rgb(69,69,69);
+    background: radial-gradient(circle, rgba(69,69,69,1) 0%, rgba(0,0,0,1) 100%); 
+    box-shadow: 0px 0px 16px 0px rgba(255,255,255,0.75);
+    -webkit-box-shadow: 0px 0px 16px 0px rgba(255,255,255,0.75);
+    -moz-box-shadow: 0px 0px 16px 0px rgba(255,255,255,0.75);
+}
+/* TEXT */
+
+.text-dark-mode{
+    color: #fafafa;
+}
+
+.text-white-mode{
+    color: #323232;
+}
+
+.icon-dark-mode{
+    background: rgb(240, 240, 240);
+    background: radial-gradient(circle, rgba(167,167,167,1) 0%, rgba(221,221,221,1) 100%); 
+    -webkit-background-clip: text;
+    color: transparent;
+}

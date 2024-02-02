@@ -1,0 +1,23 @@
+.dark-mode{
+    background: linear-gradient(
+        to right,
+        #4a1d8d,
+        #4c2882,
+        #4e3179,
+        #613d97,
+        #7d2181
+        );
+
+
+    background-size: 200% 200%;
+
+    animation: movement 5s infinite; 
+}
+
+@keyframes movement {
+    from{
+        background-position: 0 0;
+    }to{
+        background-position: 100% 100%;
+    }
+}
